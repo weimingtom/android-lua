@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Demo liblua"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/liblua">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="liblua/jni"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="liblua"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
