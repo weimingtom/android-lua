@@ -6,6 +6,19 @@ interfaces, and thus into your Android application.  There's no
 rocket science here, but it should be a nice bootstrap for anyone
 who needs to do the same thing.
 
+Setup
+-----------------------------
+
+In Properties->Builders->NDK Builder:
+  1. Modify the NDK Builder in the 'liblua' project to point to
+     the android-ndk/build/core/build-local.mk, wherever it may
+     be.
+
+  2. Modify the Working Directory, if necessary.
+
+Notes
+-----------------------------
+
 There's three projects as part of this demonstration:
 
   1. liblua
